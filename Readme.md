@@ -1,4 +1,4 @@
-# Project Name
+# Online Clothing store
 
 This project is a simple e-commerce website for showcasing products. It allows users to browse different product categories and view product details.
 
@@ -11,22 +11,22 @@ The project consists of HTML, CSS, and JavaScript files. It utilizes Axios for f
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/project-name.git
+    git clone https://github.com/abhinow01/clothing_store.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd project-name
+    cd clothing_store
     ```
 
 3. Open the `index.html` file in your web browser to view the website.
 
 4. Interact with the tabs to browse different product categories (e.g., Men, Women, Kids).
 
-5. Click on a product card to view more details or add the product to the cart.
 
-6. Enjoy exploring the products!
+
+5. Enjoy exploring the products!
 
 ## Dependencies
 
