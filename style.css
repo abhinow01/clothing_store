@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 100vh; /* Ensure the body takes up the full height of the viewport */
+    height: 100vh; 
     
 }
 
@@ -62,8 +62,8 @@ body {
 }
 .product-cards {
   display: flex;
-  flex-direction: column; /* Align the product cards vertically */
-  align-items: center; /* Center the product cards horizontally */
+  flex-direction: column; 
+  align-items: center; 
 }
 
 .product {
@@ -116,12 +116,12 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px; /* Adjust as needed */
+  margin-bottom: 10px; 
 }
 
 
 .title {
-  margin-right: 10px; /* Adjust as needed */
+  margin-right: 10px;
   font-weight: bolder;
   font-size: large;
 }
@@ -130,7 +130,7 @@ body {
   font-size: small;
   color: grey;
   font-weight:100;
-  margin-left: 10px; /* Adjust as needed */
+  margin-left: 10px; 
 }
 
 .price-container {
@@ -167,6 +167,41 @@ body {
   right: 0;
   height: 1px;
   background: linear-gradient(to right, grey 50%, grey 50%);
-  background-size: 4px 1px; /* Adjust the thickness of the line */
+  background-size: 4px 1px; 
   
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 14px; 
+  }
+
+  .container {
+    padding: 0 10px; 
+  }
+
+  .tab {
+    width: 80px; 
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 16px; 
+  }
+
+  .container {
+    max-width: 800px; 
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+ 
+  body {
+    font-size: 18px; 
+  }
+
+  .container {
+    max-width: 1200px; 
+  }
 }
